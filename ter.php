@@ -16,7 +16,7 @@ if (array_key_exists("region",$_GET)){
 } else{
 	$region= NULL;
 }
-
+echo hahaha
 
 $f = fopen("regularite-mensuelle-ter.csv", "r");
 $entete = fgetcsv($f, 0, ";");
